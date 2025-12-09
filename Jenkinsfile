@@ -2,7 +2,7 @@ pipeline {
     agent any
     stages {
         stage('Build') {
-            steps { echo "Building from FEATURE-UI branch" }
+            steps { echo "Building from BUGFIX-101 branch" }
         }
     }
 }
